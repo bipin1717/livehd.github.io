@@ -1,0 +1,99 @@
+header{
+background-color: black;
+padding: 20px;
+text-align: center;
+color: white;
+font-family:"comic sans MS";
+}
+
+footer{
+text-align: center;
+color: black;
+font-family: "comic sans MS";
+}
+
+marquee{
+    text-align: center;
+color: black;
+font-family: "comic sans MS";
+}
+
+h1{
+    text-align: center;
+}
+
+nav{
+overflow: hidden;
+background-color: #333;
+}
+
+nav a{
+float: left;
+color: white;
+padding: 20px 50px 10px 50px;
+text-decoration: none;
+}
+
+nav a:hover{ 
+background-color: black;
+color: white;
+}
+
+table{
+	color: white;
+}
+
+
+
+.my-button {
+            justify-content: center;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Hover effect */
+        .my-button:hover {
+            background-color: #45a049;
+        }
+
+.my-button:hover {
+  background-color: #e74c3c; /* Change this to your desired hover color */
+}
+
+
+
+body{
+    color: white;
+}
+
+/* Your existing styles for desktop */
+
+/* Add responsive styles for mobile */
+@media (max-width: 768px) {
+    /* Adjust container width and margins for mobile */
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* Adjust form element styles for mobile */
+    form {
+        /* Add mobile-specific styles */
+    }
+}
+
+footer{
+background-color: gray;
+text-align: center;
+padding: 8px;
+color: black;
+font-family: "comic sans MS";
+}
